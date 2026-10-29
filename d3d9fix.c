@@ -1,4 +1,4 @@
-/* Lab-only proxy d3d9.dll for Sparta (AWE engine): forwards Direct3DCreate9 to the system d3d9 and
+/* Proxy d3d9.dll for Sparta: Ancient Wars (AWE engine): forwards Direct3DCreate9 to the system d3d9 and
    applies in-memory patches to Modules\Sparta.dll (file on disk stays original).
    GUI window base constructor (FUN_1037b360, RVA 0x37B360) defaults the window max size to 2048x1600;
    the GUI root window is therefore clamped to 2048 wide at 1440p+ and mis-placed. Raise the defaults:
